@@ -9,7 +9,7 @@ const adminControls = document.getElementById('admin-controls');
 // Admin login logic (simple password prompt)
 adminLoginBtn.addEventListener('click', () => {
     const password = prompt("Enter admin password:");
-    if (password === 'admin123') {  // Replace 'admin123' with your own password
+    if (password === 'admin') {  // Replace 'admin' with your own password
         document.body.classList.add('admin-mode');
     } else {
         alert("Incorrect password.");
